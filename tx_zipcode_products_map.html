@@ -1,0 +1,3731 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6aa27c12cb970200bfec2ff34e637582 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6aa27c12cb970200bfec2ff34e637582" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6aa27c12cb970200bfec2ff34e637582 = L.map(
+                "map_6aa27c12cb970200bfec2ff34e637582",
+                {
+                    center: [31.338833507272728, -97.81204138272729],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a4555c74446ee904542a5c41174ca822 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a4555c74446ee904542a5c41174ca822.addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+            var circle_marker_30f66be756939820327890dec0d23f9f = L.circleMarker(
+                [33.5482232, -101.8292071],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_fedc5159f253aeefc72379b1090f812b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a63882a637041d464524e14fb12ead5c = $(`<div id="html_a63882a637041d464524e14fb12ead5c" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79404</b><br>             <b>State: TX</b><br>             Product Count: <b>38</b>             </div>`)[0];
+                popup_fedc5159f253aeefc72379b1090f812b.setContent(html_a63882a637041d464524e14fb12ead5c);
+            
+        
+
+        circle_marker_30f66be756939820327890dec0d23f9f.bindPopup(popup_fedc5159f253aeefc72379b1090f812b)
+        ;
+
+        
+    
+    
+            circle_marker_30f66be756939820327890dec0d23f9f.bindTooltip(
+                `<div>
+                     Zip 79404: 38 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9cc889aa239bc855d44b0462600809c5 = L.circleMarker(
+                [31.8901897, -102.3470787],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_d1fd9b8c65ebb0362192c4ef73d4cdb2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f824958faf18cd8ee316f494446b2cd5 = $(`<div id="html_f824958faf18cd8ee316f494446b2cd5" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79762</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_d1fd9b8c65ebb0362192c4ef73d4cdb2.setContent(html_f824958faf18cd8ee316f494446b2cd5);
+            
+        
+
+        circle_marker_9cc889aa239bc855d44b0462600809c5.bindPopup(popup_d1fd9b8c65ebb0362192c4ef73d4cdb2)
+        ;
+
+        
+    
+    
+            circle_marker_9cc889aa239bc855d44b0462600809c5.bindTooltip(
+                `<div>
+                     Zip 79762: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c88a730b899233e37233dccd4fec8453 = L.circleMarker(
+                [32.7797638, -96.8743156],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_0018f0125236c471b44896434c5baaa9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_33ac0cabd20cd6e1fdb1e4a2d61f1989 = $(`<div id="html_33ac0cabd20cd6e1fdb1e4a2d61f1989" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75212</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_0018f0125236c471b44896434c5baaa9.setContent(html_33ac0cabd20cd6e1fdb1e4a2d61f1989);
+            
+        
+
+        circle_marker_c88a730b899233e37233dccd4fec8453.bindPopup(popup_0018f0125236c471b44896434c5baaa9)
+        ;
+
+        
+    
+    
+            circle_marker_c88a730b899233e37233dccd4fec8453.bindTooltip(
+                `<div>
+                     Zip 75212: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dc8861d8d2934d4ac669232fa0d58bd0 = L.circleMarker(
+                [29.4122392, -98.6350712],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_ebd312ef5bc961adcd4590d14bb75541 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f342efffde0c446a184ba64440467413 = $(`<div id="html_f342efffde0c446a184ba64440467413" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78227</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_ebd312ef5bc961adcd4590d14bb75541.setContent(html_f342efffde0c446a184ba64440467413);
+            
+        
+
+        circle_marker_dc8861d8d2934d4ac669232fa0d58bd0.bindPopup(popup_ebd312ef5bc961adcd4590d14bb75541)
+        ;
+
+        
+    
+    
+            circle_marker_dc8861d8d2934d4ac669232fa0d58bd0.bindTooltip(
+                `<div>
+                     Zip 78227: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ee490ac9833d6ae45cdce14f03c40e58 = L.circleMarker(
+                [32.8251564, -97.0540492],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 44.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_60f28853ea223b284f55c61b3d4256f5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_afde7188f103f22877271c17d145f27a = $(`<div id="html_afde7188f103f22877271c17d145f27a" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76155</b><br>             <b>State: TX</b><br>             Product Count: <b>79</b>             </div>`)[0];
+                popup_60f28853ea223b284f55c61b3d4256f5.setContent(html_afde7188f103f22877271c17d145f27a);
+            
+        
+
+        circle_marker_ee490ac9833d6ae45cdce14f03c40e58.bindPopup(popup_60f28853ea223b284f55c61b3d4256f5)
+        ;
+
+        
+    
+    
+            circle_marker_ee490ac9833d6ae45cdce14f03c40e58.bindTooltip(
+                `<div>
+                     Zip 76155: 79 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8354884980f3ddb566e3c7ade41586c4 = L.circleMarker(
+                [33.5020196, -102.0032489],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_17c21d8c7efac2fd30a2eeb95601dae2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4a113851dbfe5316d63ed14f12b738c1 = $(`<div id="html_4a113851dbfe5316d63ed14f12b738c1" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79382</b><br>             <b>State: TX</b><br>             Product Count: <b>11</b>             </div>`)[0];
+                popup_17c21d8c7efac2fd30a2eeb95601dae2.setContent(html_4a113851dbfe5316d63ed14f12b738c1);
+            
+        
+
+        circle_marker_8354884980f3ddb566e3c7ade41586c4.bindPopup(popup_17c21d8c7efac2fd30a2eeb95601dae2)
+        ;
+
+        
+    
+    
+            circle_marker_8354884980f3ddb566e3c7ade41586c4.bindTooltip(
+                `<div>
+                     Zip 79382: 11 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8bb762d1f546130df32a4e9266562928 = L.circleMarker(
+                [32.9653414, -96.89039],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_6a69ba7e68a692926d6a0fed6e299788 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_dd67ca09f1fcee7e4c6cd7b796dad8a2 = $(`<div id="html_dd67ca09f1fcee7e4c6cd7b796dad8a2" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75006</b><br>             <b>State: TX</b><br>             Product Count: <b>3</b>             </div>`)[0];
+                popup_6a69ba7e68a692926d6a0fed6e299788.setContent(html_dd67ca09f1fcee7e4c6cd7b796dad8a2);
+            
+        
+
+        circle_marker_8bb762d1f546130df32a4e9266562928.bindPopup(popup_6a69ba7e68a692926d6a0fed6e299788)
+        ;
+
+        
+    
+    
+            circle_marker_8bb762d1f546130df32a4e9266562928.bindTooltip(
+                `<div>
+                     Zip 75006: 3 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d7d38b89e83aea5686999371890c8075 = L.circleMarker(
+                [31.7194124, -98.9935673],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_270aad2cab645d42e20c0a4bca4634bd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fdb413103baba2618dc1dd55bfd586ad = $(`<div id="html_fdb413103baba2618dc1dd55bfd586ad" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76801</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_270aad2cab645d42e20c0a4bca4634bd.setContent(html_fdb413103baba2618dc1dd55bfd586ad);
+            
+        
+
+        circle_marker_d7d38b89e83aea5686999371890c8075.bindPopup(popup_270aad2cab645d42e20c0a4bca4634bd)
+        ;
+
+        
+    
+    
+            circle_marker_d7d38b89e83aea5686999371890c8075.bindTooltip(
+                `<div>
+                     Zip 76801: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6bfe73d0089706731a89987ce148bbaf = L.circleMarker(
+                [29.4861814, -98.4587052],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_9f6d006f7879197dfe36baa2add6c057 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_81deb65711bc1ad4722de8527c77c1c0 = $(`<div id="html_81deb65711bc1ad4722de8527c77c1c0" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78209</b><br>             <b>State: TX</b><br>             Product Count: <b>5</b>             </div>`)[0];
+                popup_9f6d006f7879197dfe36baa2add6c057.setContent(html_81deb65711bc1ad4722de8527c77c1c0);
+            
+        
+
+        circle_marker_6bfe73d0089706731a89987ce148bbaf.bindPopup(popup_9f6d006f7879197dfe36baa2add6c057)
+        ;
+
+        
+    
+    
+            circle_marker_6bfe73d0089706731a89987ce148bbaf.bindTooltip(
+                `<div>
+                     Zip 78209: 5 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2e0f6815ad05206b952b6f433ae2298c = L.circleMarker(
+                [31.7541608, -106.2955981],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_79215600138339bbf05d167741007c0c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2c0d5223b2e055d315dc8ec5f5094e77 = $(`<div id="html_2c0d5223b2e055d315dc8ec5f5094e77" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79936</b><br>             <b>State: TX</b><br>             Product Count: <b>17</b>             </div>`)[0];
+                popup_79215600138339bbf05d167741007c0c.setContent(html_2c0d5223b2e055d315dc8ec5f5094e77);
+            
+        
+
+        circle_marker_2e0f6815ad05206b952b6f433ae2298c.bindPopup(popup_79215600138339bbf05d167741007c0c)
+        ;
+
+        
+    
+    
+            circle_marker_2e0f6815ad05206b952b6f433ae2298c.bindTooltip(
+                `<div>
+                     Zip 79936: 17 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_da8d428c034daa7d6a68b09a2e08401c = L.circleMarker(
+                [35.1337396, -101.9368011],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_2a0aba99feb9935e8a2ed87143ec3c14 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9a7024d53d6c5782f2e44eaa0ba2952f = $(`<div id="html_9a7024d53d6c5782f2e44eaa0ba2952f" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79119</b><br>             <b>State: TX</b><br>             Product Count: <b>42</b>             </div>`)[0];
+                popup_2a0aba99feb9935e8a2ed87143ec3c14.setContent(html_9a7024d53d6c5782f2e44eaa0ba2952f);
+            
+        
+
+        circle_marker_da8d428c034daa7d6a68b09a2e08401c.bindPopup(popup_2a0aba99feb9935e8a2ed87143ec3c14)
+        ;
+
+        
+    
+    
+            circle_marker_da8d428c034daa7d6a68b09a2e08401c.bindTooltip(
+                `<div>
+                     Zip 79119: 42 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c6a8d6ba51a3bdcbac86c5dc3d944f9e = L.circleMarker(
+                [32.69488, -97.0863315],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_6f1a3b8c49cae03887b6b0fd9a53ca73 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f6f842786f0a770bca769d27f9c2b8e2 = $(`<div id="html_f6f842786f0a770bca769d27f9c2b8e2" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76014</b><br>             <b>State: TX</b><br>             Product Count: <b>18</b>             </div>`)[0];
+                popup_6f1a3b8c49cae03887b6b0fd9a53ca73.setContent(html_f6f842786f0a770bca769d27f9c2b8e2);
+            
+        
+
+        circle_marker_c6a8d6ba51a3bdcbac86c5dc3d944f9e.bindPopup(popup_6f1a3b8c49cae03887b6b0fd9a53ca73)
+        ;
+
+        
+    
+    
+            circle_marker_c6a8d6ba51a3bdcbac86c5dc3d944f9e.bindTooltip(
+                `<div>
+                     Zip 76014: 18 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_03c304b8d75f09ebbf0b44fbfd312e79 = L.circleMarker(
+                [35.2252374, -101.8242335],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_6046ef71e50147c81621aec883d289f3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_eeca760ce11603c8f4ee323a722c9c13 = $(`<div id="html_eeca760ce11603c8f4ee323a722c9c13" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79107</b><br>             <b>State: TX</b><br>             Product Count: <b>15</b>             </div>`)[0];
+                popup_6046ef71e50147c81621aec883d289f3.setContent(html_eeca760ce11603c8f4ee323a722c9c13);
+            
+        
+
+        circle_marker_03c304b8d75f09ebbf0b44fbfd312e79.bindPopup(popup_6046ef71e50147c81621aec883d289f3)
+        ;
+
+        
+    
+    
+            circle_marker_03c304b8d75f09ebbf0b44fbfd312e79.bindTooltip(
+                `<div>
+                     Zip 79107: 15 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bc21e5daecc35f6cb63351f5f705f42b = L.circleMarker(
+                [29.5745419, -98.2744324],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_d000bca336a147bdb60a246e3592b061 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_308271e31cd3053d887b321f9ab18b0f = $(`<div id="html_308271e31cd3053d887b321f9ab18b0f" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78154</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_d000bca336a147bdb60a246e3592b061.setContent(html_308271e31cd3053d887b321f9ab18b0f);
+            
+        
+
+        circle_marker_bc21e5daecc35f6cb63351f5f705f42b.bindPopup(popup_d000bca336a147bdb60a246e3592b061)
+        ;
+
+        
+    
+    
+            circle_marker_bc21e5daecc35f6cb63351f5f705f42b.bindTooltip(
+                `<div>
+                     Zip 78154: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dbf425dd5201c5c2c45cea60e9054871 = L.circleMarker(
+                [32.800193, -97.3517151],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_f35b53cf58110de87ca0938f6ac28cce = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f3a24b644d8f5822f743d45199b51904 = $(`<div id="html_f3a24b644d8f5822f743d45199b51904" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76106</b><br>             <b>State: TX</b><br>             Product Count: <b>39</b>             </div>`)[0];
+                popup_f35b53cf58110de87ca0938f6ac28cce.setContent(html_f3a24b644d8f5822f743d45199b51904);
+            
+        
+
+        circle_marker_dbf425dd5201c5c2c45cea60e9054871.bindPopup(popup_f35b53cf58110de87ca0938f6ac28cce)
+        ;
+
+        
+    
+    
+            circle_marker_dbf425dd5201c5c2c45cea60e9054871.bindTooltip(
+                `<div>
+                     Zip 76106: 39 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4ecc3287cec6be287d9dfbf891e6b2b = L.circleMarker(
+                [31.9608456, -102.0607451],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_4123dbda6851c5eaeace789f4d35049a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4eb753f7eb733c53fbb3fa0e65174f5f = $(`<div id="html_4eb753f7eb733c53fbb3fa0e65174f5f" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79706</b><br>             <b>State: TX</b><br>             Product Count: <b>10</b>             </div>`)[0];
+                popup_4123dbda6851c5eaeace789f4d35049a.setContent(html_4eb753f7eb733c53fbb3fa0e65174f5f);
+            
+        
+
+        circle_marker_c4ecc3287cec6be287d9dfbf891e6b2b.bindPopup(popup_4123dbda6851c5eaeace789f4d35049a)
+        ;
+
+        
+    
+    
+            circle_marker_c4ecc3287cec6be287d9dfbf891e6b2b.bindTooltip(
+                `<div>
+                     Zip 79706: 10 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3e9234e8fff7582caaa6fff1a13e372d = L.circleMarker(
+                [33.2631765, -97.1236867],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_e30c2743131799027fcb56f8a6b3dc5d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c4c18d1af05695e5b5d9eacad53f9b61 = $(`<div id="html_c4c18d1af05695e5b5d9eacad53f9b61" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76207</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_e30c2743131799027fcb56f8a6b3dc5d.setContent(html_c4c18d1af05695e5b5d9eacad53f9b61);
+            
+        
+
+        circle_marker_3e9234e8fff7582caaa6fff1a13e372d.bindPopup(popup_e30c2743131799027fcb56f8a6b3dc5d)
+        ;
+
+        
+    
+    
+            circle_marker_3e9234e8fff7582caaa6fff1a13e372d.bindTooltip(
+                `<div>
+                     Zip 76207: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c6552c496b384e459cd3e45f46ef98a9 = L.circleMarker(
+                [34.8203743, -102.4043817],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_90da3ba2aa85188dd805545712e067ef = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fb3579f4f4834c9efec1d44e36543405 = $(`<div id="html_fb3579f4f4834c9efec1d44e36543405" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79045</b><br>             <b>State: TX</b><br>             Product Count: <b>11</b>             </div>`)[0];
+                popup_90da3ba2aa85188dd805545712e067ef.setContent(html_fb3579f4f4834c9efec1d44e36543405);
+            
+        
+
+        circle_marker_c6552c496b384e459cd3e45f46ef98a9.bindPopup(popup_90da3ba2aa85188dd805545712e067ef)
+        ;
+
+        
+    
+    
+            circle_marker_c6552c496b384e459cd3e45f46ef98a9.bindTooltip(
+                `<div>
+                     Zip 79045: 11 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4468647eb273bfaadaab7d7d2f3cdbe1 = L.circleMarker(
+                [32.4663829, -99.7709072],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_e5c8db5f4c924f170d048caa5af65911 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5fdac4fd5349d67f3611bfa9001f5a06 = $(`<div id="html_5fdac4fd5349d67f3611bfa9001f5a06" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79603</b><br>             <b>State: TX</b><br>             Product Count: <b>51</b>             </div>`)[0];
+                popup_e5c8db5f4c924f170d048caa5af65911.setContent(html_5fdac4fd5349d67f3611bfa9001f5a06);
+            
+        
+
+        circle_marker_4468647eb273bfaadaab7d7d2f3cdbe1.bindPopup(popup_e5c8db5f4c924f170d048caa5af65911)
+        ;
+
+        
+    
+    
+            circle_marker_4468647eb273bfaadaab7d7d2f3cdbe1.bindTooltip(
+                `<div>
+                     Zip 79603: 51 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_95db2eae6618f8a10b4b459dd84c7c38 = L.circleMarker(
+                [26.1030373, -98.250166],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_8a620b003b34a2913584abd8f4a78ce8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_192ce11e616711f013d424218dfb421a = $(`<div id="html_192ce11e616711f013d424218dfb421a" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78557</b><br>             <b>State: TX</b><br>             Product Count: <b>43</b>             </div>`)[0];
+                popup_8a620b003b34a2913584abd8f4a78ce8.setContent(html_192ce11e616711f013d424218dfb421a);
+            
+        
+
+        circle_marker_95db2eae6618f8a10b4b459dd84c7c38.bindPopup(popup_8a620b003b34a2913584abd8f4a78ce8)
+        ;
+
+        
+    
+    
+            circle_marker_95db2eae6618f8a10b4b459dd84c7c38.bindTooltip(
+                `<div>
+                     Zip 78557: 43 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2571889c8835e3e04ac87ed8b0c3b24b = L.circleMarker(
+                [29.380409, -100.8997183],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_e796198fb5cade060f578545a203c198 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_97261b92978e4d8e71357412422297fa = $(`<div id="html_97261b92978e4d8e71357412422297fa" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78840</b><br>             <b>State: TX</b><br>             Product Count: <b>6</b>             </div>`)[0];
+                popup_e796198fb5cade060f578545a203c198.setContent(html_97261b92978e4d8e71357412422297fa);
+            
+        
+
+        circle_marker_2571889c8835e3e04ac87ed8b0c3b24b.bindPopup(popup_e796198fb5cade060f578545a203c198)
+        ;
+
+        
+    
+    
+            circle_marker_2571889c8835e3e04ac87ed8b0c3b24b.bindTooltip(
+                `<div>
+                     Zip 78840: 6 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_152a8f5d78be59d9daf17e1be5a600de = L.circleMarker(
+                [30.8905928, -102.8862601],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_b97472e962b5b390139e9c5039e555d8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_afe0f0f0990f6c61384cf58556d49a3b = $(`<div id="html_afe0f0f0990f6c61384cf58556d49a3b" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79735</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_b97472e962b5b390139e9c5039e555d8.setContent(html_afe0f0f0990f6c61384cf58556d49a3b);
+            
+        
+
+        circle_marker_152a8f5d78be59d9daf17e1be5a600de.bindPopup(popup_b97472e962b5b390139e9c5039e555d8)
+        ;
+
+        
+    
+    
+            circle_marker_152a8f5d78be59d9daf17e1be5a600de.bindTooltip(
+                `<div>
+                     Zip 79735: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_464f345085311d1fbe28f4d7fc572120 = L.circleMarker(
+                [29.4961166, -98.4024586],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_e61f0230ceaf456089ad6ce750ed9156 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5875958f224169ff1a131a0a3d8400b6 = $(`<div id="html_5875958f224169ff1a131a0a3d8400b6" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78218</b><br>             <b>State: TX</b><br>             Product Count: <b>38</b>             </div>`)[0];
+                popup_e61f0230ceaf456089ad6ce750ed9156.setContent(html_5875958f224169ff1a131a0a3d8400b6);
+            
+        
+
+        circle_marker_464f345085311d1fbe28f4d7fc572120.bindPopup(popup_e61f0230ceaf456089ad6ce750ed9156)
+        ;
+
+        
+    
+    
+            circle_marker_464f345085311d1fbe28f4d7fc572120.bindTooltip(
+                `<div>
+                     Zip 78218: 38 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d49550303c1ee5716bbd3949b7b959af = L.circleMarker(
+                [33.8636225, -98.484244],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_8b195048837c6b028b28e0ec95a04fc9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_30d3d41c709ac80d77b6a8274f13b00a = $(`<div id="html_30d3d41c709ac80d77b6a8274f13b00a" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76302</b><br>             <b>State: TX</b><br>             Product Count: <b>7</b>             </div>`)[0];
+                popup_8b195048837c6b028b28e0ec95a04fc9.setContent(html_30d3d41c709ac80d77b6a8274f13b00a);
+            
+        
+
+        circle_marker_d49550303c1ee5716bbd3949b7b959af.bindPopup(popup_8b195048837c6b028b28e0ec95a04fc9)
+        ;
+
+        
+    
+    
+            circle_marker_d49550303c1ee5716bbd3949b7b959af.bindTooltip(
+                `<div>
+                     Zip 76302: 7 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4988cb2fcc7034ef0e18d447f05d456d = L.circleMarker(
+                [31.4701956, -100.4359659],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_c757e31ec14abda698f6f635ffb3d5c5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_63d2717f68759a2dce9c9bc9aafc9956 = $(`<div id="html_63d2717f68759a2dce9c9bc9aafc9956" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76903</b><br>             <b>State: TX</b><br>             Product Count: <b>9</b>             </div>`)[0];
+                popup_c757e31ec14abda698f6f635ffb3d5c5.setContent(html_63d2717f68759a2dce9c9bc9aafc9956);
+            
+        
+
+        circle_marker_4988cb2fcc7034ef0e18d447f05d456d.bindPopup(popup_c757e31ec14abda698f6f635ffb3d5c5)
+        ;
+
+        
+    
+    
+            circle_marker_4988cb2fcc7034ef0e18d447f05d456d.bindTooltip(
+                `<div>
+                     Zip 76903: 9 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bb1810d7250057804fb15fa6ed37c8cb = L.circleMarker(
+                [32.8634877, -97.2894828],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_51407793a32f46fdf13f286edc687ab9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2eed1f5fede1296bc958f38301385518 = $(`<div id="html_2eed1f5fede1296bc958f38301385518" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76137</b><br>             <b>State: TX</b><br>             Product Count: <b>13</b>             </div>`)[0];
+                popup_51407793a32f46fdf13f286edc687ab9.setContent(html_2eed1f5fede1296bc958f38301385518);
+            
+        
+
+        circle_marker_bb1810d7250057804fb15fa6ed37c8cb.bindPopup(popup_51407793a32f46fdf13f286edc687ab9)
+        ;
+
+        
+    
+    
+            circle_marker_bb1810d7250057804fb15fa6ed37c8cb.bindTooltip(
+                `<div>
+                     Zip 76137: 13 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e69d12efecb3b4c1d11f36f6f52bd4fc = L.circleMarker(
+                [31.9938278, -102.0835146],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_3dac3cb894ad5e5c92c90a7d67df1ded = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f39b5a40e8b1519b3b2fd75af4c0ca03 = $(`<div id="html_f39b5a40e8b1519b3b2fd75af4c0ca03" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79701</b><br>             <b>State: TX</b><br>             Product Count: <b>8</b>             </div>`)[0];
+                popup_3dac3cb894ad5e5c92c90a7d67df1ded.setContent(html_f39b5a40e8b1519b3b2fd75af4c0ca03);
+            
+        
+
+        circle_marker_e69d12efecb3b4c1d11f36f6f52bd4fc.bindPopup(popup_3dac3cb894ad5e5c92c90a7d67df1ded)
+        ;
+
+        
+    
+    
+            circle_marker_e69d12efecb3b4c1d11f36f6f52bd4fc.bindTooltip(
+                `<div>
+                     Zip 79701: 8 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_55109bc5e9c70ec4a0a2beddaf774ac3 = L.circleMarker(
+                [32.8054245, -97.2753925],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_8fed4b5751bc24a08580faa76dda5b32 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_625a20cce3397c19b02ecc17537af35f = $(`<div id="html_625a20cce3397c19b02ecc17537af35f" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76117</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_8fed4b5751bc24a08580faa76dda5b32.setContent(html_625a20cce3397c19b02ecc17537af35f);
+            
+        
+
+        circle_marker_55109bc5e9c70ec4a0a2beddaf774ac3.bindPopup(popup_8fed4b5751bc24a08580faa76dda5b32)
+        ;
+
+        
+    
+    
+            circle_marker_55109bc5e9c70ec4a0a2beddaf774ac3.bindTooltip(
+                `<div>
+                     Zip 76117: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5d9c23740040a51ce194876e85225378 = L.circleMarker(
+                [32.9205088, -96.8820417],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_4a5ea5f10ff13aab51460978456a203a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7877732792df68648dc73a112402fcad = $(`<div id="html_7877732792df68648dc73a112402fcad" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75234</b><br>             <b>State: TX</b><br>             Product Count: <b>6</b>             </div>`)[0];
+                popup_4a5ea5f10ff13aab51460978456a203a.setContent(html_7877732792df68648dc73a112402fcad);
+            
+        
+
+        circle_marker_5d9c23740040a51ce194876e85225378.bindPopup(popup_4a5ea5f10ff13aab51460978456a203a)
+        ;
+
+        
+    
+    
+            circle_marker_5d9c23740040a51ce194876e85225378.bindTooltip(
+                `<div>
+                     Zip 75234: 6 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4eccd053b539f9039fcceba1ab462721 = L.circleMarker(
+                [29.4383509, -98.4059115],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_87f0fd48d9b1cf3ec9e90c69e574bc57 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7772e7ad808e3bf1de4215736adb0053 = $(`<div id="html_7772e7ad808e3bf1de4215736adb0053" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78219</b><br>             <b>State: TX</b><br>             Product Count: <b>9</b>             </div>`)[0];
+                popup_87f0fd48d9b1cf3ec9e90c69e574bc57.setContent(html_7772e7ad808e3bf1de4215736adb0053);
+            
+        
+
+        circle_marker_4eccd053b539f9039fcceba1ab462721.bindPopup(popup_87f0fd48d9b1cf3ec9e90c69e574bc57)
+        ;
+
+        
+    
+    
+            circle_marker_4eccd053b539f9039fcceba1ab462721.bindTooltip(
+                `<div>
+                     Zip 78219: 9 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ee108e1f9e2079e722767a78917b9150 = L.circleMarker(
+                [32.7674773, -97.026431],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_02e2940bafc6d18d116398f35fd0a047 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_68c2a197950ca11d4af1f4d2ba550513 = $(`<div id="html_68c2a197950ca11d4af1f4d2ba550513" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75050</b><br>             <b>State: TX</b><br>             Product Count: <b>12</b>             </div>`)[0];
+                popup_02e2940bafc6d18d116398f35fd0a047.setContent(html_68c2a197950ca11d4af1f4d2ba550513);
+            
+        
+
+        circle_marker_ee108e1f9e2079e722767a78917b9150.bindPopup(popup_02e2940bafc6d18d116398f35fd0a047)
+        ;
+
+        
+    
+    
+            circle_marker_ee108e1f9e2079e722767a78917b9150.bindTooltip(
+                `<div>
+                     Zip 75050: 12 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_87e945bdcb0e6c05904df2d484b8ffbb = L.circleMarker(
+                [30.6720986, -96.3789354],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_aab594b366259f3c4e63cc77b41d0dab = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b0ac5eff102d7e6fb8061442d3cdacca = $(`<div id="html_b0ac5eff102d7e6fb8061442d3cdacca" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77803</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_aab594b366259f3c4e63cc77b41d0dab.setContent(html_b0ac5eff102d7e6fb8061442d3cdacca);
+            
+        
+
+        circle_marker_87e945bdcb0e6c05904df2d484b8ffbb.bindPopup(popup_aab594b366259f3c4e63cc77b41d0dab)
+        ;
+
+        
+    
+    
+            circle_marker_87e945bdcb0e6c05904df2d484b8ffbb.bindTooltip(
+                `<div>
+                     Zip 77803: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ecff71a047ae53411fa2e74b4b33fce3 = L.circleMarker(
+                [36.04277, -101.9984004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_183ee3aca5a060f5c2d75e6d5314a4f5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_318e3eb293f72a92b74e9c1ebbf5d2f6 = $(`<div id="html_318e3eb293f72a92b74e9c1ebbf5d2f6" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79013</b><br>             <b>State: TX</b><br>             Product Count: <b>16</b>             </div>`)[0];
+                popup_183ee3aca5a060f5c2d75e6d5314a4f5.setContent(html_318e3eb293f72a92b74e9c1ebbf5d2f6);
+            
+        
+
+        circle_marker_ecff71a047ae53411fa2e74b4b33fce3.bindPopup(popup_183ee3aca5a060f5c2d75e6d5314a4f5)
+        ;
+
+        
+    
+    
+            circle_marker_ecff71a047ae53411fa2e74b4b33fce3.bindTooltip(
+                `<div>
+                     Zip 79013: 16 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_773d8cbdb22433f2f151e05b4d0f6e01 = L.circleMarker(
+                [32.480014, -99.7064784],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_be5c88f9e327914ae79bee7fdee436a0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e51b3a9ca10b7e0d961ce0a312ffeea9 = $(`<div id="html_e51b3a9ca10b7e0d961ce0a312ffeea9" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79601</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_be5c88f9e327914ae79bee7fdee436a0.setContent(html_e51b3a9ca10b7e0d961ce0a312ffeea9);
+            
+        
+
+        circle_marker_773d8cbdb22433f2f151e05b4d0f6e01.bindPopup(popup_be5c88f9e327914ae79bee7fdee436a0)
+        ;
+
+        
+    
+    
+            circle_marker_773d8cbdb22433f2f151e05b4d0f6e01.bindTooltip(
+                `<div>
+                     Zip 79601: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7cb69a5150c0f3445099398ae4099c4d = L.circleMarker(
+                [31.8903516, -102.3484267],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_fcdfd99d75bd184cdf308d206edcfbd2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4da8eff8abcc2faeb47109a30e6145f8 = $(`<div id="html_4da8eff8abcc2faeb47109a30e6145f8" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 46706</b><br>             <b>State: TX</b><br>             Product Count: <b>7</b>             </div>`)[0];
+                popup_fcdfd99d75bd184cdf308d206edcfbd2.setContent(html_4da8eff8abcc2faeb47109a30e6145f8);
+            
+        
+
+        circle_marker_7cb69a5150c0f3445099398ae4099c4d.bindPopup(popup_fcdfd99d75bd184cdf308d206edcfbd2)
+        ;
+
+        
+    
+    
+            circle_marker_7cb69a5150c0f3445099398ae4099c4d.bindTooltip(
+                `<div>
+                     Zip 46706: 7 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a73283dcba114cd0ca762d0a0c2b29b6 = L.circleMarker(
+                [33.098254, -96.6123657],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_d87cd740621e473c7b7b70fda2944b76 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f7d26e24d6f64069ce8e8a19c804ca1b = $(`<div id="html_f7d26e24d6f64069ce8e8a19c804ca1b" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75002</b><br>             <b>State: TX</b><br>             Product Count: <b>33</b>             </div>`)[0];
+                popup_d87cd740621e473c7b7b70fda2944b76.setContent(html_f7d26e24d6f64069ce8e8a19c804ca1b);
+            
+        
+
+        circle_marker_a73283dcba114cd0ca762d0a0c2b29b6.bindPopup(popup_d87cd740621e473c7b7b70fda2944b76)
+        ;
+
+        
+    
+    
+            circle_marker_a73283dcba114cd0ca762d0a0c2b29b6.bindTooltip(
+                `<div>
+                     Zip 75002: 33 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_589d497eaa0c76016a952c857faffe12 = L.circleMarker(
+                [30.2118865, -95.4428914],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_d1531475a4dae6be2f540efbf3befe86 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2dcad619112fc47a38f057dd61d61f21 = $(`<div id="html_2dcad619112fc47a38f057dd61d61f21" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77385</b><br>             <b>State: TX</b><br>             Product Count: <b>3</b>             </div>`)[0];
+                popup_d1531475a4dae6be2f540efbf3befe86.setContent(html_2dcad619112fc47a38f057dd61d61f21);
+            
+        
+
+        circle_marker_589d497eaa0c76016a952c857faffe12.bindPopup(popup_d1531475a4dae6be2f540efbf3befe86)
+        ;
+
+        
+    
+    
+            circle_marker_589d497eaa0c76016a952c857faffe12.bindTooltip(
+                `<div>
+                     Zip 77385: 3 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2107ca304b1340da185acf2656f012ca = L.circleMarker(
+                [29.9430689, -95.3439257],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 38.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_727f8c0854712e5aab56c6d301022d89 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_376ca3e331738d226aad74cebf081037 = $(`<div id="html_376ca3e331738d226aad74cebf081037" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77032</b><br>             <b>State: TX</b><br>             Product Count: <b>66</b>             </div>`)[0];
+                popup_727f8c0854712e5aab56c6d301022d89.setContent(html_376ca3e331738d226aad74cebf081037);
+            
+        
+
+        circle_marker_2107ca304b1340da185acf2656f012ca.bindPopup(popup_727f8c0854712e5aab56c6d301022d89)
+        ;
+
+        
+    
+    
+            circle_marker_2107ca304b1340da185acf2656f012ca.bindTooltip(
+                `<div>
+                     Zip 77032: 66 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_061e1420141381ff51d641d6d8a7e5ba = L.circleMarker(
+                [32.961351, -97.3831673],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_d8e705a08b981cc0b632d6841c461fbb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a7d1fa58658624003e6893b50ce89c85 = $(`<div id="html_a7d1fa58658624003e6893b50ce89c85" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76052</b><br>             <b>State: TX</b><br>             Product Count: <b>43</b>             </div>`)[0];
+                popup_d8e705a08b981cc0b632d6841c461fbb.setContent(html_a7d1fa58658624003e6893b50ce89c85);
+            
+        
+
+        circle_marker_061e1420141381ff51d641d6d8a7e5ba.bindPopup(popup_d8e705a08b981cc0b632d6841c461fbb)
+        ;
+
+        
+    
+    
+            circle_marker_061e1420141381ff51d641d6d8a7e5ba.bindTooltip(
+                `<div>
+                     Zip 76052: 43 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_79999a3c5506c3faa21864113f8e1b4b = L.circleMarker(
+                [29.5392839, -98.4936495],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_4e81eba4ff7f5c80a7c74fe281881a80 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6c999878b6cc3fa992e10f3a8d399f94 = $(`<div id="html_6c999878b6cc3fa992e10f3a8d399f94" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78216</b><br>             <b>State: TX</b><br>             Product Count: <b>3</b>             </div>`)[0];
+                popup_4e81eba4ff7f5c80a7c74fe281881a80.setContent(html_6c999878b6cc3fa992e10f3a8d399f94);
+            
+        
+
+        circle_marker_79999a3c5506c3faa21864113f8e1b4b.bindPopup(popup_4e81eba4ff7f5c80a7c74fe281881a80)
+        ;
+
+        
+    
+    
+            circle_marker_79999a3c5506c3faa21864113f8e1b4b.bindTooltip(
+                `<div>
+                     Zip 78216: 3 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_35f3fb4a5b0e8344dedc352fa239d7dc = L.circleMarker(
+                [32.8828601, -97.0386275],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_9fcb92b4a7f955d229ca547177281699 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0b3ba81a37da8b4537397b09591d8d15 = $(`<div id="html_0b3ba81a37da8b4537397b09591d8d15" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75261</b><br>             <b>State: TX</b><br>             Product Count: <b>11</b>             </div>`)[0];
+                popup_9fcb92b4a7f955d229ca547177281699.setContent(html_0b3ba81a37da8b4537397b09591d8d15);
+            
+        
+
+        circle_marker_35f3fb4a5b0e8344dedc352fa239d7dc.bindPopup(popup_9fcb92b4a7f955d229ca547177281699)
+        ;
+
+        
+    
+    
+            circle_marker_35f3fb4a5b0e8344dedc352fa239d7dc.bindTooltip(
+                `<div>
+                     Zip 75261: 11 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1516d500d32f6dee8306c21b05e29175 = L.circleMarker(
+                [29.5392839, -98.4936495],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_1ab3dbeaacd5b8610bc82489954a818a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_33cce74172f03ff6476634cf35583bc3 = $(`<div id="html_33cce74172f03ff6476634cf35583bc3" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78216-4200</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_1ab3dbeaacd5b8610bc82489954a818a.setContent(html_33cce74172f03ff6476634cf35583bc3);
+            
+        
+
+        circle_marker_1516d500d32f6dee8306c21b05e29175.bindPopup(popup_1ab3dbeaacd5b8610bc82489954a818a)
+        ;
+
+        
+    
+    
+            circle_marker_1516d500d32f6dee8306c21b05e29175.bindTooltip(
+                `<div>
+                     Zip 78216-4200: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_924b3521c0c279c7f1b2ce234c5cc6bb = L.circleMarker(
+                [30.1659395, -97.6707965],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_14c179f73d41bd16f6afacc83ce2aef9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4de9eb8eef9776ee57b999b64ae28622 = $(`<div id="html_4de9eb8eef9776ee57b999b64ae28622" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78719</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_14c179f73d41bd16f6afacc83ce2aef9.setContent(html_4de9eb8eef9776ee57b999b64ae28622);
+            
+        
+
+        circle_marker_924b3521c0c279c7f1b2ce234c5cc6bb.bindPopup(popup_14c179f73d41bd16f6afacc83ce2aef9)
+        ;
+
+        
+    
+    
+            circle_marker_924b3521c0c279c7f1b2ce234c5cc6bb.bindTooltip(
+                `<div>
+                     Zip 78719: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_21f9fcb750c44271d9ebfd821ad228b5 = L.circleMarker(
+                [27.6027321, -99.4881956],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_934e876ffe199bebe4727c53594daa6a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5762b2f4b6d58500e28bdfec9e582ec7 = $(`<div id="html_5762b2f4b6d58500e28bdfec9e582ec7" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78045</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_934e876ffe199bebe4727c53594daa6a.setContent(html_5762b2f4b6d58500e28bdfec9e582ec7);
+            
+        
+
+        circle_marker_21f9fcb750c44271d9ebfd821ad228b5.bindPopup(popup_934e876ffe199bebe4727c53594daa6a)
+        ;
+
+        
+    
+    
+            circle_marker_21f9fcb750c44271d9ebfd821ad228b5.bindTooltip(
+                `<div>
+                     Zip 78045: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd7c91200bccaa3bfff309041518cd84 = L.circleMarker(
+                [31.6734785, -106.2108166],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_a1e74ccd82f624f3353c945e4936751d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e29a31c03623938712a8065acce7ddf5 = $(`<div id="html_e29a31c03623938712a8065acce7ddf5" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79928</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_a1e74ccd82f624f3353c945e4936751d.setContent(html_e29a31c03623938712a8065acce7ddf5);
+            
+        
+
+        circle_marker_dd7c91200bccaa3bfff309041518cd84.bindPopup(popup_a1e74ccd82f624f3353c945e4936751d)
+        ;
+
+        
+    
+    
+            circle_marker_dd7c91200bccaa3bfff309041518cd84.bindTooltip(
+                `<div>
+                     Zip 79928: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e571ebebaf3da397853d8b5eb9c14e3c = L.circleMarker(
+                [29.4280832, -96.923006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_2d99dd7acae33e71c158bcbd5289bd90 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bcc0349714fd0689618c9703ef97d113 = $(`<div id="html_bcc0349714fd0689618c9703ef97d113" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77964</b><br>             <b>State: TX</b><br>             Product Count: <b>5</b>             </div>`)[0];
+                popup_2d99dd7acae33e71c158bcbd5289bd90.setContent(html_bcc0349714fd0689618c9703ef97d113);
+            
+        
+
+        circle_marker_e571ebebaf3da397853d8b5eb9c14e3c.bindPopup(popup_2d99dd7acae33e71c158bcbd5289bd90)
+        ;
+
+        
+    
+    
+            circle_marker_e571ebebaf3da397853d8b5eb9c14e3c.bindTooltip(
+                `<div>
+                     Zip 77964: 5 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_552ddb19ecb312b9a0e3bc5e1fc37571 = L.circleMarker(
+                [29.6851769, -95.2524557],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_a2864292ffa49ef9b67184e64d5c7f8e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fd26dd3454323ea6106db5a79ca92965 = $(`<div id="html_fd26dd3454323ea6106db5a79ca92965" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77017</b><br>             <b>State: TX</b><br>             Product Count: <b>43</b>             </div>`)[0];
+                popup_a2864292ffa49ef9b67184e64d5c7f8e.setContent(html_fd26dd3454323ea6106db5a79ca92965);
+            
+        
+
+        circle_marker_552ddb19ecb312b9a0e3bc5e1fc37571.bindPopup(popup_a2864292ffa49ef9b67184e64d5c7f8e)
+        ;
+
+        
+    
+    
+            circle_marker_552ddb19ecb312b9a0e3bc5e1fc37571.bindTooltip(
+                `<div>
+                     Zip 77017: 43 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_39284773c42c93695393d5e33726cddd = L.circleMarker(
+                [32.4117092, -95.2257558],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_1c943d34d613040c5fc79b6af5803869 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_de79e57ecf797f6c0b35a2ca982d3e38 = $(`<div id="html_de79e57ecf797f6c0b35a2ca982d3e38" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75708</b><br>             <b>State: TX</b><br>             Product Count: <b>6</b>             </div>`)[0];
+                popup_1c943d34d613040c5fc79b6af5803869.setContent(html_de79e57ecf797f6c0b35a2ca982d3e38);
+            
+        
+
+        circle_marker_39284773c42c93695393d5e33726cddd.bindPopup(popup_1c943d34d613040c5fc79b6af5803869)
+        ;
+
+        
+    
+    
+            circle_marker_39284773c42c93695393d5e33726cddd.bindTooltip(
+                `<div>
+                     Zip 75708: 6 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_66e552e09676c6df773e090091511362 = L.circleMarker(
+                [32.8134981, -96.6256353],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 33.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_082f28822ad359498ddcbddd25a020bc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_07dd33431d82fd4ed1ae3465dd2b0780 = $(`<div id="html_07dd33431d82fd4ed1ae3465dd2b0780" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75150</b><br>             <b>State: TX</b><br>             Product Count: <b>57</b>             </div>`)[0];
+                popup_082f28822ad359498ddcbddd25a020bc.setContent(html_07dd33431d82fd4ed1ae3465dd2b0780);
+            
+        
+
+        circle_marker_66e552e09676c6df773e090091511362.bindPopup(popup_082f28822ad359498ddcbddd25a020bc)
+        ;
+
+        
+    
+    
+            circle_marker_66e552e09676c6df773e090091511362.bindTooltip(
+                `<div>
+                     Zip 75150: 57 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1cdc691e0bea9512e53b0e45309a6260 = L.circleMarker(
+                [30.4435299, -97.6090469],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_327bc89441625f3e882b8394a332f1dd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5e9455e9dba3c6f26dded9253ea45a14 = $(`<div id="html_5e9455e9dba3c6f26dded9253ea45a14" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78660</b><br>             <b>State: TX</b><br>             Product Count: <b>20</b>             </div>`)[0];
+                popup_327bc89441625f3e882b8394a332f1dd.setContent(html_5e9455e9dba3c6f26dded9253ea45a14);
+            
+        
+
+        circle_marker_1cdc691e0bea9512e53b0e45309a6260.bindPopup(popup_327bc89441625f3e882b8394a332f1dd)
+        ;
+
+        
+    
+    
+            circle_marker_1cdc691e0bea9512e53b0e45309a6260.bindTooltip(
+                `<div>
+                     Zip 78660: 20 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0723bd87760c9b0c97311b9fd3aff4d1 = L.circleMarker(
+                [33.465402, -94.085405],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_6c8692516edbf8463e75fb107989bfec = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_33a33b2ab0e09e42de6d681b6572de96 = $(`<div id="html_33a33b2ab0e09e42de6d681b6572de96" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75503</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_6c8692516edbf8463e75fb107989bfec.setContent(html_33a33b2ab0e09e42de6d681b6572de96);
+            
+        
+
+        circle_marker_0723bd87760c9b0c97311b9fd3aff4d1.bindPopup(popup_6c8692516edbf8463e75fb107989bfec)
+        ;
+
+        
+    
+    
+            circle_marker_0723bd87760c9b0c97311b9fd3aff4d1.bindTooltip(
+                `<div>
+                     Zip 75503: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_912fbe25c3ae6dbb58e7d165eb37090b = L.circleMarker(
+                [27.5484516, -99.487779],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_281aa39db7560054991aaa316741d18e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ffb0b4b9d9ad1bb0e86c299d0db8bfea = $(`<div id="html_ffb0b4b9d9ad1bb0e86c299d0db8bfea" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78041</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_281aa39db7560054991aaa316741d18e.setContent(html_ffb0b4b9d9ad1bb0e86c299d0db8bfea);
+            
+        
+
+        circle_marker_912fbe25c3ae6dbb58e7d165eb37090b.bindPopup(popup_281aa39db7560054991aaa316741d18e)
+        ;
+
+        
+    
+    
+            circle_marker_912fbe25c3ae6dbb58e7d165eb37090b.bindTooltip(
+                `<div>
+                     Zip 78041: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d3b0c907f691b5cb7a5212892d805ef = L.circleMarker(
+                [30.3163145, -95.4512104],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_f6602604546fb771adeaff4735fa835a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_97369a80d53f7f5371fa5fe08d89a8b7 = $(`<div id="html_97369a80d53f7f5371fa5fe08d89a8b7" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77301</b><br>             <b>State: TX</b><br>             Product Count: <b>7</b>             </div>`)[0];
+                popup_f6602604546fb771adeaff4735fa835a.setContent(html_97369a80d53f7f5371fa5fe08d89a8b7);
+            
+        
+
+        circle_marker_2d3b0c907f691b5cb7a5212892d805ef.bindPopup(popup_f6602604546fb771adeaff4735fa835a)
+        ;
+
+        
+    
+    
+            circle_marker_2d3b0c907f691b5cb7a5212892d805ef.bindTooltip(
+                `<div>
+                     Zip 77301: 7 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_56fd7831ebba6e7034459ca6a83ec7da = L.circleMarker(
+                [32.9357056, -97.0869609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_93a468229b06fda502177d960af323e9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5251ccab72f3cc5fbe120be5dcca42c6 = $(`<div id="html_5251ccab72f3cc5fbe120be5dcca42c6" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76051</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_93a468229b06fda502177d960af323e9.setContent(html_5251ccab72f3cc5fbe120be5dcca42c6);
+            
+        
+
+        circle_marker_56fd7831ebba6e7034459ca6a83ec7da.bindPopup(popup_93a468229b06fda502177d960af323e9)
+        ;
+
+        
+    
+    
+            circle_marker_56fd7831ebba6e7034459ca6a83ec7da.bindTooltip(
+                `<div>
+                     Zip 76051: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff280f55d81ebaa1c38010fda1974fc8 = L.circleMarker(
+                [27.7721668, -97.4357281],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_62716ec417aad40efbf5e3f3ef572037 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c726fd7f142064eb1161a1743a8783b9 = $(`<div id="html_c726fd7f142064eb1161a1743a8783b9" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78405</b><br>             <b>State: TX</b><br>             Product Count: <b>10</b>             </div>`)[0];
+                popup_62716ec417aad40efbf5e3f3ef572037.setContent(html_c726fd7f142064eb1161a1743a8783b9);
+            
+        
+
+        circle_marker_ff280f55d81ebaa1c38010fda1974fc8.bindPopup(popup_62716ec417aad40efbf5e3f3ef572037)
+        ;
+
+        
+    
+    
+            circle_marker_ff280f55d81ebaa1c38010fda1974fc8.bindTooltip(
+                `<div>
+                     Zip 78405: 10 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_87f542b4bfc6b16755bebab3d3c0ce72 = L.circleMarker(
+                [29.5994755, -95.5146431],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_49b3138ad23ade5dd5b13298df0a610f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f8fbb336712e4ee2c67cf62e5b5d2b52 = $(`<div id="html_f8fbb336712e4ee2c67cf62e5b5d2b52" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77489</b><br>             <b>State: TX</b><br>             Product Count: <b>9</b>             </div>`)[0];
+                popup_49b3138ad23ade5dd5b13298df0a610f.setContent(html_f8fbb336712e4ee2c67cf62e5b5d2b52);
+            
+        
+
+        circle_marker_87f542b4bfc6b16755bebab3d3c0ce72.bindPopup(popup_49b3138ad23ade5dd5b13298df0a610f)
+        ;
+
+        
+    
+    
+            circle_marker_87f542b4bfc6b16755bebab3d3c0ce72.bindTooltip(
+                `<div>
+                     Zip 77489: 9 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_41b0b8f86221351de04e323f43b0f28f = L.circleMarker(
+                [30.0266809, -94.1582751],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_98053c941000f9243546752d249f76de = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_711b97ec93c4878d906d43fd96d7c567 = $(`<div id="html_711b97ec93c4878d906d43fd96d7c567" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77705</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_98053c941000f9243546752d249f76de.setContent(html_711b97ec93c4878d906d43fd96d7c567);
+            
+        
+
+        circle_marker_41b0b8f86221351de04e323f43b0f28f.bindPopup(popup_98053c941000f9243546752d249f76de)
+        ;
+
+        
+    
+    
+            circle_marker_41b0b8f86221351de04e323f43b0f28f.bindTooltip(
+                `<div>
+                     Zip 77705: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6beb81974fd04d35bc53bfb89677adb7 = L.circleMarker(
+                [29.3119786, -96.0839519],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_769335612aeaa113faed0a1d27b7ffd4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_dabb779abfe73ea0b383d03807ffb0b6 = $(`<div id="html_dabb779abfe73ea0b383d03807ffb0b6" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77488</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_769335612aeaa113faed0a1d27b7ffd4.setContent(html_dabb779abfe73ea0b383d03807ffb0b6);
+            
+        
+
+        circle_marker_6beb81974fd04d35bc53bfb89677adb7.bindPopup(popup_769335612aeaa113faed0a1d27b7ffd4)
+        ;
+
+        
+    
+    
+            circle_marker_6beb81974fd04d35bc53bfb89677adb7.bindTooltip(
+                `<div>
+                     Zip 77488: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a1a1072ac329882c6acd7e7e2d3d7315 = L.circleMarker(
+                [32.7892863, -96.8217691],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_638e15bcbef7ad137aaed00f8dc19c7f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b1c6218b1c3b1bc073f1c61a23707c8e = $(`<div id="html_b1c6218b1c3b1bc073f1c61a23707c8e" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75207</b><br>             <b>State: TX</b><br>             Product Count: <b>17</b>             </div>`)[0];
+                popup_638e15bcbef7ad137aaed00f8dc19c7f.setContent(html_b1c6218b1c3b1bc073f1c61a23707c8e);
+            
+        
+
+        circle_marker_a1a1072ac329882c6acd7e7e2d3d7315.bindPopup(popup_638e15bcbef7ad137aaed00f8dc19c7f)
+        ;
+
+        
+    
+    
+            circle_marker_a1a1072ac329882c6acd7e7e2d3d7315.bindTooltip(
+                `<div>
+                     Zip 75207: 17 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_75dda97a433757f93c3907eedbb33db4 = L.circleMarker(
+                [31.7725136, -106.3368157],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_d95780c31f003e39c55f6d88ad1345df = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e8f2a74d74249a47becdaeb5a353282a = $(`<div id="html_e8f2a74d74249a47becdaeb5a353282a" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79935</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_d95780c31f003e39c55f6d88ad1345df.setContent(html_e8f2a74d74249a47becdaeb5a353282a);
+            
+        
+
+        circle_marker_75dda97a433757f93c3907eedbb33db4.bindPopup(popup_d95780c31f003e39c55f6d88ad1345df)
+        ;
+
+        
+    
+    
+            circle_marker_75dda97a433757f93c3907eedbb33db4.bindTooltip(
+                `<div>
+                     Zip 79935: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a8525b175e6948f35f71ebd18ece8d85 = L.circleMarker(
+                [32.770565, -96.6100382],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_1a90d94b49089dda5907a87728eefef0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_adf71cbedaa1c25000e5f72e9aa39b79 = $(`<div id="html_adf71cbedaa1c25000e5f72e9aa39b79" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75149</b><br>             <b>State: TX</b><br>             Product Count: <b>17</b>             </div>`)[0];
+                popup_1a90d94b49089dda5907a87728eefef0.setContent(html_adf71cbedaa1c25000e5f72e9aa39b79);
+            
+        
+
+        circle_marker_a8525b175e6948f35f71ebd18ece8d85.bindPopup(popup_1a90d94b49089dda5907a87728eefef0)
+        ;
+
+        
+    
+    
+            circle_marker_a8525b175e6948f35f71ebd18ece8d85.bindTooltip(
+                `<div>
+                     Zip 75149: 17 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_575c86ff4ed55cb3636f9385b9efaf7c = L.circleMarker(
+                [32.7324343, -96.566307],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_85bbb4e538862d6620e49b44cd665df2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2f6b78a3592a7409bf12a720ea459eb7 = $(`<div id="html_2f6b78a3592a7409bf12a720ea459eb7" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75181</b><br>             <b>State: TX</b><br>             Product Count: <b>3</b>             </div>`)[0];
+                popup_85bbb4e538862d6620e49b44cd665df2.setContent(html_2f6b78a3592a7409bf12a720ea459eb7);
+            
+        
+
+        circle_marker_575c86ff4ed55cb3636f9385b9efaf7c.bindPopup(popup_85bbb4e538862d6620e49b44cd665df2)
+        ;
+
+        
+    
+    
+            circle_marker_575c86ff4ed55cb3636f9385b9efaf7c.bindTooltip(
+                `<div>
+                     Zip 75181: 3 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dcf6e5153ab2fc61d955312addae82d8 = L.circleMarker(
+                [27.4196615, -99.4817032],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_baf8e69b26c333fe7b0b1abfa919cde4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8157fee0d720e17c501de2332208473a = $(`<div id="html_8157fee0d720e17c501de2332208473a" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78046</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_baf8e69b26c333fe7b0b1abfa919cde4.setContent(html_8157fee0d720e17c501de2332208473a);
+            
+        
+
+        circle_marker_dcf6e5153ab2fc61d955312addae82d8.bindPopup(popup_baf8e69b26c333fe7b0b1abfa919cde4)
+        ;
+
+        
+    
+    
+            circle_marker_dcf6e5153ab2fc61d955312addae82d8.bindTooltip(
+                `<div>
+                     Zip 78046: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_988fdba4bc358c01cefe9be0c5929ac3 = L.circleMarker(
+                [32.6929474, -96.9249717],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_a1d1c18c76f439a79c0786cbb86e3e49 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_93a6ed85dcd75a0a2b3ddf2d35cc625d = $(`<div id="html_93a6ed85dcd75a0a2b3ddf2d35cc625d" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75236</b><br>             <b>State: TX</b><br>             Product Count: <b>17</b>             </div>`)[0];
+                popup_a1d1c18c76f439a79c0786cbb86e3e49.setContent(html_93a6ed85dcd75a0a2b3ddf2d35cc625d);
+            
+        
+
+        circle_marker_988fdba4bc358c01cefe9be0c5929ac3.bindPopup(popup_a1d1c18c76f439a79c0786cbb86e3e49)
+        ;
+
+        
+    
+    
+            circle_marker_988fdba4bc358c01cefe9be0c5929ac3.bindTooltip(
+                `<div>
+                     Zip 75236: 17 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c15bee01bbcee935935eb46869943100 = L.circleMarker(
+                [32.6631444, -96.8715023],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_cbed4bc1a505078cd3f9cb30c83b0d51 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_cd8d210b4109398dd4fb6f5daf1727aa = $(`<div id="html_cd8d210b4109398dd4fb6f5daf1727aa" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75237</b><br>             <b>State: TX</b><br>             Product Count: <b>8</b>             </div>`)[0];
+                popup_cbed4bc1a505078cd3f9cb30c83b0d51.setContent(html_cd8d210b4109398dd4fb6f5daf1727aa);
+            
+        
+
+        circle_marker_c15bee01bbcee935935eb46869943100.bindPopup(popup_cbed4bc1a505078cd3f9cb30c83b0d51)
+        ;
+
+        
+    
+    
+            circle_marker_c15bee01bbcee935935eb46869943100.bindTooltip(
+                `<div>
+                     Zip 75237: 8 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_377adaaf5ef07ca1c44f1431fe0ad8c8 = L.circleMarker(
+                [32.8271451, -96.96321],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_767864a7af13fb7d18e9552669c29ff2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d9c0d837030c5381e58c6053b83befec = $(`<div id="html_d9c0d837030c5381e58c6053b83befec" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75061</b><br>             <b>State: TX</b><br>             Product Count: <b>25</b>             </div>`)[0];
+                popup_767864a7af13fb7d18e9552669c29ff2.setContent(html_d9c0d837030c5381e58c6053b83befec);
+            
+        
+
+        circle_marker_377adaaf5ef07ca1c44f1431fe0ad8c8.bindPopup(popup_767864a7af13fb7d18e9552669c29ff2)
+        ;
+
+        
+    
+    
+            circle_marker_377adaaf5ef07ca1c44f1431fe0ad8c8.bindTooltip(
+                `<div>
+                     Zip 75061: 25 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_78304b3eca1e70d1cb45f2df20b66912 = L.circleMarker(
+                [29.9988364, -95.3999142],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_a09f7b35fc9b200efd6d8727c9e5ba1d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_67c65eac97c9cff8c92ed596f4b4253e = $(`<div id="html_67c65eac97c9cff8c92ed596f4b4253e" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77073</b><br>             <b>State: TX</b><br>             Product Count: <b>3</b>             </div>`)[0];
+                popup_a09f7b35fc9b200efd6d8727c9e5ba1d.setContent(html_67c65eac97c9cff8c92ed596f4b4253e);
+            
+        
+
+        circle_marker_78304b3eca1e70d1cb45f2df20b66912.bindPopup(popup_a09f7b35fc9b200efd6d8727c9e5ba1d)
+        ;
+
+        
+    
+    
+            circle_marker_78304b3eca1e70d1cb45f2df20b66912.bindTooltip(
+                `<div>
+                     Zip 77073: 3 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c2ca055415017b8a385b0cf831f839e4 = L.circleMarker(
+                [29.5433505, -95.8066605],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_0c5e719ab5ee5d6868de4549addcbcd2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_21545e2da62c8318112e29651277ef1e = $(`<div id="html_21545e2da62c8318112e29651277ef1e" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77471</b><br>             <b>State: TX</b><br>             Product Count: <b>32</b>             </div>`)[0];
+                popup_0c5e719ab5ee5d6868de4549addcbcd2.setContent(html_21545e2da62c8318112e29651277ef1e);
+            
+        
+
+        circle_marker_c2ca055415017b8a385b0cf831f839e4.bindPopup(popup_0c5e719ab5ee5d6868de4549addcbcd2)
+        ;
+
+        
+    
+    
+            circle_marker_c2ca055415017b8a385b0cf831f839e4.bindTooltip(
+                `<div>
+                     Zip 77471: 32 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3508649541d6af7a37f5f8344f3c5550 = L.circleMarker(
+                [29.6864461, -95.120006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_5c25e2be9f92d50f5ffa13364e3ba39c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0225e7ad455a273cac6e8f0e490ff824 = $(`<div id="html_0225e7ad455a273cac6e8f0e490ff824" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77536</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_5c25e2be9f92d50f5ffa13364e3ba39c.setContent(html_0225e7ad455a273cac6e8f0e490ff824);
+            
+        
+
+        circle_marker_3508649541d6af7a37f5f8344f3c5550.bindPopup(popup_5c25e2be9f92d50f5ffa13364e3ba39c)
+        ;
+
+        
+    
+    
+            circle_marker_3508649541d6af7a37f5f8344f3c5550.bindTooltip(
+                `<div>
+                     Zip 77536: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_32b0c3d08801139e854615bec4bc3b0f = L.circleMarker(
+                [26.1826197, -98.1879146],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_d741c68e79de5fec4b8cb8beb0d66248 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6c9e4294a5f9ddae91ed23c8619a3a45 = $(`<div id="html_6c9e4294a5f9ddae91ed23c8619a3a45" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78577</b><br>             <b>State: TX</b><br>             Product Count: <b>3</b>             </div>`)[0];
+                popup_d741c68e79de5fec4b8cb8beb0d66248.setContent(html_6c9e4294a5f9ddae91ed23c8619a3a45);
+            
+        
+
+        circle_marker_32b0c3d08801139e854615bec4bc3b0f.bindPopup(popup_d741c68e79de5fec4b8cb8beb0d66248)
+        ;
+
+        
+    
+    
+            circle_marker_32b0c3d08801139e854615bec4bc3b0f.bindTooltip(
+                `<div>
+                     Zip 78577: 3 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0a36141566002ffa35b5664860855b73 = L.circleMarker(
+                [33.1801303, -96.6303914],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_c2a01040e3b18d500ab094a3106bff3e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5c3ea8cd3d9226510b35b51d7e12f2df = $(`<div id="html_5c3ea8cd3d9226510b35b51d7e12f2df" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75069</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_c2a01040e3b18d500ab094a3106bff3e.setContent(html_5c3ea8cd3d9226510b35b51d7e12f2df);
+            
+        
+
+        circle_marker_0a36141566002ffa35b5664860855b73.bindPopup(popup_c2a01040e3b18d500ab094a3106bff3e)
+        ;
+
+        
+    
+    
+            circle_marker_0a36141566002ffa35b5664860855b73.bindTooltip(
+                `<div>
+                     Zip 75069: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3c1de797db819e5c27e9f66899f7a70d = L.circleMarker(
+                [31.6033648, -97.102955],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_a2d5af3431caefad8f1251adcd6b421d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d85afeab150a6607d25faf5fac8a6754 = $(`<div id="html_d85afeab150a6607d25faf5fac8a6754" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76705</b><br>             <b>State: TX</b><br>             Product Count: <b>49</b>             </div>`)[0];
+                popup_a2d5af3431caefad8f1251adcd6b421d.setContent(html_d85afeab150a6607d25faf5fac8a6754);
+            
+        
+
+        circle_marker_3c1de797db819e5c27e9f66899f7a70d.bindPopup(popup_a2d5af3431caefad8f1251adcd6b421d)
+        ;
+
+        
+    
+    
+            circle_marker_3c1de797db819e5c27e9f66899f7a70d.bindTooltip(
+                `<div>
+                     Zip 76705: 49 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2142963950b6d5ec31f6de66fdb3c93a = L.circleMarker(
+                [32.7419096, -96.8818087],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_01e6fd2f26655c084e44f39e1c85579a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_57ccaff547536a340aa3182c392c6e35 = $(`<div id="html_57ccaff547536a340aa3182c392c6e35" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75211</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_01e6fd2f26655c084e44f39e1c85579a.setContent(html_57ccaff547536a340aa3182c392c6e35);
+            
+        
+
+        circle_marker_2142963950b6d5ec31f6de66fdb3c93a.bindPopup(popup_01e6fd2f26655c084e44f39e1c85579a)
+        ;
+
+        
+    
+    
+            circle_marker_2142963950b6d5ec31f6de66fdb3c93a.bindTooltip(
+                `<div>
+                     Zip 75211: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0544297e08d1ddd7f7559d55cd08105e = L.circleMarker(
+                [29.9230868, -95.3976709],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_ca32bcb5e16c4aa0dcbf64ae7bf22912 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e327062df65ea0607e21f714826dac98 = $(`<div id="html_e327062df65ea0607e21f714826dac98" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77060</b><br>             <b>State: TX</b><br>             Product Count: <b>5</b>             </div>`)[0];
+                popup_ca32bcb5e16c4aa0dcbf64ae7bf22912.setContent(html_e327062df65ea0607e21f714826dac98);
+            
+        
+
+        circle_marker_0544297e08d1ddd7f7559d55cd08105e.bindPopup(popup_ca32bcb5e16c4aa0dcbf64ae7bf22912)
+        ;
+
+        
+    
+    
+            circle_marker_0544297e08d1ddd7f7559d55cd08105e.bindTooltip(
+                `<div>
+                     Zip 77060: 5 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c49ee24e788f66d6b6ce5e18c96942b = L.circleMarker(
+                [29.9658387, -95.5742723],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_d32d21d76b08f566cc94eb2249f24629 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8e8a8d952064672ca842043761af901c = $(`<div id="html_8e8a8d952064672ca842043761af901c" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77070</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_d32d21d76b08f566cc94eb2249f24629.setContent(html_8e8a8d952064672ca842043761af901c);
+            
+        
+
+        circle_marker_5c49ee24e788f66d6b6ce5e18c96942b.bindPopup(popup_d32d21d76b08f566cc94eb2249f24629)
+        ;
+
+        
+    
+    
+            circle_marker_5c49ee24e788f66d6b6ce5e18c96942b.bindTooltip(
+                `<div>
+                     Zip 77070: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_71a344a16a8aadb4be3fc80e75f97642 = L.circleMarker(
+                [27.5165066, -99.4695804],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_f7de6c35f3702eb999772a5d1bb1fd41 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e89b8756a85368972bb14cbf1008419a = $(`<div id="html_e89b8756a85368972bb14cbf1008419a" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78043</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_f7de6c35f3702eb999772a5d1bb1fd41.setContent(html_e89b8756a85368972bb14cbf1008419a);
+            
+        
+
+        circle_marker_71a344a16a8aadb4be3fc80e75f97642.bindPopup(popup_f7de6c35f3702eb999772a5d1bb1fd41)
+        ;
+
+        
+    
+    
+            circle_marker_71a344a16a8aadb4be3fc80e75f97642.bindTooltip(
+                `<div>
+                     Zip 78043: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_83b6889f8b8425ca5b4dafc3c99449cf = L.circleMarker(
+                [32.523491, -94.8565004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_d711c031e65d2ec3573e7125010ba9b5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9bed77badd9f887c85ac7420c4d39c35 = $(`<div id="html_9bed77badd9f887c85ac7420c4d39c35" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75693</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_d711c031e65d2ec3573e7125010ba9b5.setContent(html_9bed77badd9f887c85ac7420c4d39c35);
+            
+        
+
+        circle_marker_83b6889f8b8425ca5b4dafc3c99449cf.bindPopup(popup_d711c031e65d2ec3573e7125010ba9b5)
+        ;
+
+        
+    
+    
+            circle_marker_83b6889f8b8425ca5b4dafc3c99449cf.bindTooltip(
+                `<div>
+                     Zip 75693: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_930b1a5c808519cc8b2ec4f2d8947951 = L.circleMarker(
+                [32.9451417, -96.4643635],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_80262db4486bb60308350138cc4260b9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_54bcfa6406efc50d763e9242e49b3a6d = $(`<div id="html_54bcfa6406efc50d763e9242e49b3a6d" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75087</b><br>             <b>State: TX</b><br>             Product Count: <b>7</b>             </div>`)[0];
+                popup_80262db4486bb60308350138cc4260b9.setContent(html_54bcfa6406efc50d763e9242e49b3a6d);
+            
+        
+
+        circle_marker_930b1a5c808519cc8b2ec4f2d8947951.bindPopup(popup_80262db4486bb60308350138cc4260b9)
+        ;
+
+        
+    
+    
+            circle_marker_930b1a5c808519cc8b2ec4f2d8947951.bindTooltip(
+                `<div>
+                     Zip 75087: 7 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c3d645cf13b8f978a0d5457daa32145b = L.circleMarker(
+                [32.9945994, -97.2236791],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_8d157ac08c6a249d124f6be451bff54f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_376ad77416cafa9a27f01647629e893b = $(`<div id="html_376ad77416cafa9a27f01647629e893b" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76262</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_8d157ac08c6a249d124f6be451bff54f.setContent(html_376ad77416cafa9a27f01647629e893b);
+            
+        
+
+        circle_marker_c3d645cf13b8f978a0d5457daa32145b.bindPopup(popup_8d157ac08c6a249d124f6be451bff54f)
+        ;
+
+        
+    
+    
+            circle_marker_c3d645cf13b8f978a0d5457daa32145b.bindTooltip(
+                `<div>
+                     Zip 76262: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a7a20e40c6da8e86b705fc42f22fdc47 = L.circleMarker(
+                [33.1609304, -94.9750661],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_d000e58b68cd900ff782190115b3ddc4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6ac31999684d360207a1300bc6d84623 = $(`<div id="html_6ac31999684d360207a1300bc6d84623" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75455</b><br>             <b>State: TX</b><br>             Product Count: <b>10</b>             </div>`)[0];
+                popup_d000e58b68cd900ff782190115b3ddc4.setContent(html_6ac31999684d360207a1300bc6d84623);
+            
+        
+
+        circle_marker_a7a20e40c6da8e86b705fc42f22fdc47.bindPopup(popup_d000e58b68cd900ff782190115b3ddc4)
+        ;
+
+        
+    
+    
+            circle_marker_a7a20e40c6da8e86b705fc42f22fdc47.bindTooltip(
+                `<div>
+                     Zip 75455: 10 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7ae8b9941bb4d0d9b89d874322ca1063 = L.circleMarker(
+                [29.5391274, -98.4238204],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_a022d1746e7e434cbf8e0405edf3c66b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d03efc6e63a918d02fdd1c398fd5e2c0 = $(`<div id="html_d03efc6e63a918d02fdd1c398fd5e2c0" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78217</b><br>             <b>State: TX</b><br>             Product Count: <b>8</b>             </div>`)[0];
+                popup_a022d1746e7e434cbf8e0405edf3c66b.setContent(html_d03efc6e63a918d02fdd1c398fd5e2c0);
+            
+        
+
+        circle_marker_7ae8b9941bb4d0d9b89d874322ca1063.bindPopup(popup_a022d1746e7e434cbf8e0405edf3c66b)
+        ;
+
+        
+    
+    
+            circle_marker_7ae8b9941bb4d0d9b89d874322ca1063.bindTooltip(
+                `<div>
+                     Zip 78217: 8 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_630ef3765806fa1570fc0bc83b884de4 = L.circleMarker(
+                [29.7038202, -97.2950094],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_5f650e7145016151e8fb1328ef152b1c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d6c252d281e52e504937c71ad73c571b = $(`<div id="html_d6c252d281e52e504937c71ad73c571b" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78959</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_5f650e7145016151e8fb1328ef152b1c.setContent(html_d6c252d281e52e504937c71ad73c571b);
+            
+        
+
+        circle_marker_630ef3765806fa1570fc0bc83b884de4.bindPopup(popup_5f650e7145016151e8fb1328ef152b1c)
+        ;
+
+        
+    
+    
+            circle_marker_630ef3765806fa1570fc0bc83b884de4.bindTooltip(
+                `<div>
+                     Zip 78959: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_801e22f8030ad64aaa5465321e5ea3d8 = L.circleMarker(
+                [32.9522781, -96.837781],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_aaa198e1ff2d2c48947b3c110271b2cf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b8ea3330b24b6a2c1b2df7ab97ea8cdf = $(`<div id="html_b8ea3330b24b6a2c1b2df7ab97ea8cdf" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75001</b><br>             <b>State: TX</b><br>             Product Count: <b>7</b>             </div>`)[0];
+                popup_aaa198e1ff2d2c48947b3c110271b2cf.setContent(html_b8ea3330b24b6a2c1b2df7ab97ea8cdf);
+            
+        
+
+        circle_marker_801e22f8030ad64aaa5465321e5ea3d8.bindPopup(popup_aaa198e1ff2d2c48947b3c110271b2cf)
+        ;
+
+        
+    
+    
+            circle_marker_801e22f8030ad64aaa5465321e5ea3d8.bindTooltip(
+                `<div>
+                     Zip 75001: 7 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0d1eea8dc005fd17fb3a5ad477393454 = L.circleMarker(
+                [32.3344829, -96.6197267],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_124a12919b07a2aa212c80089ee2fe51 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2a9203afb547658574a71705516fb57f = $(`<div id="html_2a9203afb547658574a71705516fb57f" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75119</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_124a12919b07a2aa212c80089ee2fe51.setContent(html_2a9203afb547658574a71705516fb57f);
+            
+        
+
+        circle_marker_0d1eea8dc005fd17fb3a5ad477393454.bindPopup(popup_124a12919b07a2aa212c80089ee2fe51)
+        ;
+
+        
+    
+    
+            circle_marker_0d1eea8dc005fd17fb3a5ad477393454.bindTooltip(
+                `<div>
+                     Zip 75119: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_212f838c603413a9d290e8fe1df008e8 = L.circleMarker(
+                [26.2169107, -98.3274654],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_4276d0493e512141ea99d5e4f2602d38 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_90980be792f7a85c6f16c58d495f9a40 = $(`<div id="html_90980be792f7a85c6f16c58d495f9a40" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78572</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_4276d0493e512141ea99d5e4f2602d38.setContent(html_90980be792f7a85c6f16c58d495f9a40);
+            
+        
+
+        circle_marker_212f838c603413a9d290e8fe1df008e8.bindPopup(popup_4276d0493e512141ea99d5e4f2602d38)
+        ;
+
+        
+    
+    
+            circle_marker_212f838c603413a9d290e8fe1df008e8.bindTooltip(
+                `<div>
+                     Zip 78572: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e787d9618a6cf0ba7d482b906e65c1c9 = L.circleMarker(
+                [30.2310423, -97.7204984],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_34b634311b8da7af9cd78e773d7ad2a5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6214596e82bc5c48284aad6189c76987 = $(`<div id="html_6214596e82bc5c48284aad6189c76987" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78741</b><br>             <b>State: TX</b><br>             Product Count: <b>3</b>             </div>`)[0];
+                popup_34b634311b8da7af9cd78e773d7ad2a5.setContent(html_6214596e82bc5c48284aad6189c76987);
+            
+        
+
+        circle_marker_e787d9618a6cf0ba7d482b906e65c1c9.bindPopup(popup_34b634311b8da7af9cd78e773d7ad2a5)
+        ;
+
+        
+    
+    
+            circle_marker_e787d9618a6cf0ba7d482b906e65c1c9.bindTooltip(
+                `<div>
+                     Zip 78741: 3 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_590b573f0a24a46a94e6279a009f239a = L.circleMarker(
+                [32.5093795, -94.7327876],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_1bb46ac82f71aa76a1804543603d46dc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_df1c805ed43cff8a1351ed9f23dbde5e = $(`<div id="html_df1c805ed43cff8a1351ed9f23dbde5e" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75601</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_1bb46ac82f71aa76a1804543603d46dc.setContent(html_df1c805ed43cff8a1351ed9f23dbde5e);
+            
+        
+
+        circle_marker_590b573f0a24a46a94e6279a009f239a.bindPopup(popup_1bb46ac82f71aa76a1804543603d46dc)
+        ;
+
+        
+    
+    
+            circle_marker_590b573f0a24a46a94e6279a009f239a.bindTooltip(
+                `<div>
+                     Zip 75601: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4173ec6c0bd6058141b5079ab810cd91 = L.circleMarker(
+                [29.3628373, -98.4391785],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_672730379e6cd863c35ad5681e43a1bf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9116a8bcf8e68469c32887d0c89326e3 = $(`<div id="html_9116a8bcf8e68469c32887d0c89326e3" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78223</b><br>             <b>State: TX</b><br>             Product Count: <b>3</b>             </div>`)[0];
+                popup_672730379e6cd863c35ad5681e43a1bf.setContent(html_9116a8bcf8e68469c32887d0c89326e3);
+            
+        
+
+        circle_marker_4173ec6c0bd6058141b5079ab810cd91.bindPopup(popup_672730379e6cd863c35ad5681e43a1bf)
+        ;
+
+        
+    
+    
+            circle_marker_4173ec6c0bd6058141b5079ab810cd91.bindTooltip(
+                `<div>
+                     Zip 78223: 3 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e132cfa410e94723a6517a6ab857a3a4 = L.circleMarker(
+                [33.6452636, -96.5939016],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_5a55c1340708cafd0da291a66d96cbb8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1c58ad8605f8fce092161810a56d48b0 = $(`<div id="html_1c58ad8605f8fce092161810a56d48b0" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75090</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_5a55c1340708cafd0da291a66d96cbb8.setContent(html_1c58ad8605f8fce092161810a56d48b0);
+            
+        
+
+        circle_marker_e132cfa410e94723a6517a6ab857a3a4.bindPopup(popup_5a55c1340708cafd0da291a66d96cbb8)
+        ;
+
+        
+    
+    
+            circle_marker_e132cfa410e94723a6517a6ab857a3a4.bindTooltip(
+                `<div>
+                     Zip 75090: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f47dbda3e32bb4ae19db935ecf7cb54e = L.circleMarker(
+                [33.0204247, -96.5616935],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_481e1382d28d4c98f4a3bbd399456934 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9e8f9fb61bb061f50b22e6c931752d34 = $(`<div id="html_9e8f9fb61bb061f50b22e6c931752d34" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75098</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_481e1382d28d4c98f4a3bbd399456934.setContent(html_9e8f9fb61bb061f50b22e6c931752d34);
+            
+        
+
+        circle_marker_f47dbda3e32bb4ae19db935ecf7cb54e.bindPopup(popup_481e1382d28d4c98f4a3bbd399456934)
+        ;
+
+        
+    
+    
+            circle_marker_f47dbda3e32bb4ae19db935ecf7cb54e.bindTooltip(
+                `<div>
+                     Zip 75098: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_14e7b89838e074936d1e7a29441ea4ca = L.circleMarker(
+                [29.6766842, -95.365514],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_cd1d5dd6f3aca8a7a7822090e1edc584 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_846612d7a455033dd3cd9e270dcbdd01 = $(`<div id="html_846612d7a455033dd3cd9e270dcbdd01" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77051-1349</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_cd1d5dd6f3aca8a7a7822090e1edc584.setContent(html_846612d7a455033dd3cd9e270dcbdd01);
+            
+        
+
+        circle_marker_14e7b89838e074936d1e7a29441ea4ca.bindPopup(popup_cd1d5dd6f3aca8a7a7822090e1edc584)
+        ;
+
+        
+    
+    
+            circle_marker_14e7b89838e074936d1e7a29441ea4ca.bindTooltip(
+                `<div>
+                     Zip 77051-1349: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8e295c7b8a68b3cb58c645793b2c79a7 = L.circleMarker(
+                [32.8813408, -96.6483942],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_52bc76cee5ce2cfd4b8e6b1c07bb1a3f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7747eed9bc3d8657edf9c59f24f2e8c1 = $(`<div id="html_7747eed9bc3d8657edf9c59f24f2e8c1" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75041</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_52bc76cee5ce2cfd4b8e6b1c07bb1a3f.setContent(html_7747eed9bc3d8657edf9c59f24f2e8c1);
+            
+        
+
+        circle_marker_8e295c7b8a68b3cb58c645793b2c79a7.bindPopup(popup_52bc76cee5ce2cfd4b8e6b1c07bb1a3f)
+        ;
+
+        
+    
+    
+            circle_marker_8e295c7b8a68b3cb58c645793b2c79a7.bindTooltip(
+                `<div>
+                     Zip 75041: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_83a8bf7a252cb6113096e382c6e71d7b = L.circleMarker(
+                [32.9185613, -96.7720252],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_515d239c255f43e21a0f74536352de91 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e50d78ed0e164cf8a3edb4104916e719 = $(`<div id="html_e50d78ed0e164cf8a3edb4104916e719" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75251</b><br>             <b>State: TX</b><br>             Product Count: <b>4</b>             </div>`)[0];
+                popup_515d239c255f43e21a0f74536352de91.setContent(html_e50d78ed0e164cf8a3edb4104916e719);
+            
+        
+
+        circle_marker_83a8bf7a252cb6113096e382c6e71d7b.bindPopup(popup_515d239c255f43e21a0f74536352de91)
+        ;
+
+        
+    
+    
+            circle_marker_83a8bf7a252cb6113096e382c6e71d7b.bindTooltip(
+                `<div>
+                     Zip 75251: 4 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_17c419f27c2c1ef56f7d0b8fe408809d = L.circleMarker(
+                [33.076884, -97.0490393],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_c093c69fe65ae803f00889e1ae5caf48 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_66c9ef6cda79599461ec0681cd3266ed = $(`<div id="html_66c9ef6cda79599461ec0681cd3266ed" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75077</b><br>             <b>State: TX</b><br>             Product Count: <b>16</b>             </div>`)[0];
+                popup_c093c69fe65ae803f00889e1ae5caf48.setContent(html_66c9ef6cda79599461ec0681cd3266ed);
+            
+        
+
+        circle_marker_17c419f27c2c1ef56f7d0b8fe408809d.bindPopup(popup_c093c69fe65ae803f00889e1ae5caf48)
+        ;
+
+        
+    
+    
+            circle_marker_17c419f27c2c1ef56f7d0b8fe408809d.bindTooltip(
+                `<div>
+                     Zip 75077: 16 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f5f25df17c0b5cd98fd08a568b4032a2 = L.circleMarker(
+                [29.9231924, -95.4484223],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_f38a44a53729396589c5631a4fb4a78e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0cccfe9d073b3b41db45575daf791970 = $(`<div id="html_0cccfe9d073b3b41db45575daf791970" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77038</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_f38a44a53729396589c5631a4fb4a78e.setContent(html_0cccfe9d073b3b41db45575daf791970);
+            
+        
+
+        circle_marker_f5f25df17c0b5cd98fd08a568b4032a2.bindPopup(popup_f38a44a53729396589c5631a4fb4a78e)
+        ;
+
+        
+    
+    
+            circle_marker_f5f25df17c0b5cd98fd08a568b4032a2.bindTooltip(
+                `<div>
+                     Zip 77038: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9ad02d4bf95e7de7dfdc7c7e368ac50f = L.circleMarker(
+                [31.3367686, -94.7532863],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_8825ae3507ef2a35b50f749fb9cc76c6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d3fa45f29a8241fcccac13646120fdb4 = $(`<div id="html_d3fa45f29a8241fcccac13646120fdb4" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75904</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_8825ae3507ef2a35b50f749fb9cc76c6.setContent(html_d3fa45f29a8241fcccac13646120fdb4);
+            
+        
+
+        circle_marker_9ad02d4bf95e7de7dfdc7c7e368ac50f.bindPopup(popup_8825ae3507ef2a35b50f749fb9cc76c6)
+        ;
+
+        
+    
+    
+            circle_marker_9ad02d4bf95e7de7dfdc7c7e368ac50f.bindTooltip(
+                `<div>
+                     Zip 75904: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8858b861dbb3b66e9bb63504e869311e = L.circleMarker(
+                [29.8185712, -94.8440021],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_c2c30855cac08d03e80c4cab8d4cc29d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_513236dc6964a1c4781ab68d2b8dce86 = $(`<div id="html_513236dc6964a1c4781ab68d2b8dce86" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77523</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_c2c30855cac08d03e80c4cab8d4cc29d.setContent(html_513236dc6964a1c4781ab68d2b8dce86);
+            
+        
+
+        circle_marker_8858b861dbb3b66e9bb63504e869311e.bindPopup(popup_c2c30855cac08d03e80c4cab8d4cc29d)
+        ;
+
+        
+    
+    
+            circle_marker_8858b861dbb3b66e9bb63504e869311e.bindTooltip(
+                `<div>
+                     Zip 77523: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ef5edc78133ebff8eb249d9539c89dc1 = L.circleMarker(
+                [32.5733237, -97.1271715],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_bd7f0a95b87c0c407eb4f0755ffea150 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5ab1df8bddae385828cab0c186642a71 = $(`<div id="html_5ab1df8bddae385828cab0c186642a71" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76063</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_bd7f0a95b87c0c407eb4f0755ffea150.setContent(html_5ab1df8bddae385828cab0c186642a71);
+            
+        
+
+        circle_marker_ef5edc78133ebff8eb249d9539c89dc1.bindPopup(popup_bd7f0a95b87c0c407eb4f0755ffea150)
+        ;
+
+        
+    
+    
+            circle_marker_ef5edc78133ebff8eb249d9539c89dc1.bindTooltip(
+                `<div>
+                     Zip 76063: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_765913870d2a8b06a1dbd4b9cf122126 = L.circleMarker(
+                [31.6052196, -94.6560725],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_490263604a33898fa3afe075eebd930c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c98189898d0401fb88efd61bf107b1b8 = $(`<div id="html_c98189898d0401fb88efd61bf107b1b8" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75961</b><br>             <b>State: TX</b><br>             Product Count: <b>3</b>             </div>`)[0];
+                popup_490263604a33898fa3afe075eebd930c.setContent(html_c98189898d0401fb88efd61bf107b1b8);
+            
+        
+
+        circle_marker_765913870d2a8b06a1dbd4b9cf122126.bindPopup(popup_490263604a33898fa3afe075eebd930c)
+        ;
+
+        
+    
+    
+            circle_marker_765913870d2a8b06a1dbd4b9cf122126.bindTooltip(
+                `<div>
+                     Zip 75961: 3 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_21b8f8c8cb8a39240cff0388a767183d = L.circleMarker(
+                [32.6422398, -96.7094431],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_fd90287f6db18b813ac163f9877c8270 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0a87dca32bc86952471f7f0fbf1c2a3b = $(`<div id="html_0a87dca32bc86952471f7f0fbf1c2a3b" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75141</b><br>             <b>State: TX</b><br>             Product Count: <b>10</b>             </div>`)[0];
+                popup_fd90287f6db18b813ac163f9877c8270.setContent(html_0a87dca32bc86952471f7f0fbf1c2a3b);
+            
+        
+
+        circle_marker_21b8f8c8cb8a39240cff0388a767183d.bindPopup(popup_fd90287f6db18b813ac163f9877c8270)
+        ;
+
+        
+    
+    
+            circle_marker_21b8f8c8cb8a39240cff0388a767183d.bindTooltip(
+                `<div>
+                     Zip 75141: 10 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0a36aefaddd95ce3a4876e36f3e7b17d = L.circleMarker(
+                [30.3669216, -95.402272],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_79ab92a2217146a94c9721bbcdd597a8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2248799d754ca7c414f68e483fdc8985 = $(`<div id="html_2248799d754ca7c414f68e483fdc8985" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77303</b><br>             <b>State: TX</b><br>             Product Count: <b>8</b>             </div>`)[0];
+                popup_79ab92a2217146a94c9721bbcdd597a8.setContent(html_2248799d754ca7c414f68e483fdc8985);
+            
+        
+
+        circle_marker_0a36aefaddd95ce3a4876e36f3e7b17d.bindPopup(popup_79ab92a2217146a94c9721bbcdd597a8)
+        ;
+
+        
+    
+    
+            circle_marker_0a36aefaddd95ce3a4876e36f3e7b17d.bindTooltip(
+                `<div>
+                     Zip 77303: 8 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_50f4cf3709aee0decada84ce2cd07074 = L.circleMarker(
+                [29.6246016, -95.6226299],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_ca0fc3bfa0726089939a01be2d90ea22 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_833eeda4fecaea67d257d9048d28d36a = $(`<div id="html_833eeda4fecaea67d257d9048d28d36a" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77478</b><br>             <b>State: TX</b><br>             Product Count: <b>8</b>             </div>`)[0];
+                popup_ca0fc3bfa0726089939a01be2d90ea22.setContent(html_833eeda4fecaea67d257d9048d28d36a);
+            
+        
+
+        circle_marker_50f4cf3709aee0decada84ce2cd07074.bindPopup(popup_ca0fc3bfa0726089939a01be2d90ea22)
+        ;
+
+        
+    
+    
+            circle_marker_50f4cf3709aee0decada84ce2cd07074.bindTooltip(
+                `<div>
+                     Zip 77478: 8 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7914a85a6b086e13c788a959ef755fbf = L.circleMarker(
+                [32.6205553, -96.7775817],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_f6b8eeca4d88acc031f0f25bac3755c0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_130ea8dbba2a34e19067b5609a363f8a = $(`<div id="html_130ea8dbba2a34e19067b5609a363f8a" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75134</b><br>             <b>State: TX</b><br>             Product Count: <b>24</b>             </div>`)[0];
+                popup_f6b8eeca4d88acc031f0f25bac3755c0.setContent(html_130ea8dbba2a34e19067b5609a363f8a);
+            
+        
+
+        circle_marker_7914a85a6b086e13c788a959ef755fbf.bindPopup(popup_f6b8eeca4d88acc031f0f25bac3755c0)
+        ;
+
+        
+    
+    
+            circle_marker_7914a85a6b086e13c788a959ef755fbf.bindTooltip(
+                `<div>
+                     Zip 75134: 24 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5224fcfca7e9de5c98abc9e306423ef0 = L.circleMarker(
+                [32.7054289, -96.8728621],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_4c24c01fb2b434f6025ac3550e6cfd09 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f120daaa822bb111b3d17bacf330073a = $(`<div id="html_f120daaa822bb111b3d17bacf330073a" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 75233</b><br>             <b>State: TX</b><br>             Product Count: <b>13</b>             </div>`)[0];
+                popup_4c24c01fb2b434f6025ac3550e6cfd09.setContent(html_f120daaa822bb111b3d17bacf330073a);
+            
+        
+
+        circle_marker_5224fcfca7e9de5c98abc9e306423ef0.bindPopup(popup_4c24c01fb2b434f6025ac3550e6cfd09)
+        ;
+
+        
+    
+    
+            circle_marker_5224fcfca7e9de5c98abc9e306423ef0.bindTooltip(
+                `<div>
+                     Zip 75233: 13 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_48c3eda7ea9b20836461a52bec2e0a0c = L.circleMarker(
+                [29.8578009, -95.3780482],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_5ab0981930c0dbfea0fb9f9a303ff87b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fee7896999b752958b6502f1054c4905 = $(`<div id="html_fee7896999b752958b6502f1054c4905" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77076</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_5ab0981930c0dbfea0fb9f9a303ff87b.setContent(html_fee7896999b752958b6502f1054c4905);
+            
+        
+
+        circle_marker_48c3eda7ea9b20836461a52bec2e0a0c.bindPopup(popup_5ab0981930c0dbfea0fb9f9a303ff87b)
+        ;
+
+        
+    
+    
+            circle_marker_48c3eda7ea9b20836461a52bec2e0a0c.bindTooltip(
+                `<div>
+                     Zip 77076: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3742e592393ee2b822010faf44a67120 = L.circleMarker(
+                [29.5906534, -98.4736282],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_33016aa53b0191cae806198c2a0f704c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_45870f38db94979de03ab0b01e038221 = $(`<div id="html_45870f38db94979de03ab0b01e038221" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78232</b><br>             <b>State: TX</b><br>             Product Count: <b>2</b>             </div>`)[0];
+                popup_33016aa53b0191cae806198c2a0f704c.setContent(html_45870f38db94979de03ab0b01e038221);
+            
+        
+
+        circle_marker_3742e592393ee2b822010faf44a67120.bindPopup(popup_33016aa53b0191cae806198c2a0f704c)
+        ;
+
+        
+    
+    
+            circle_marker_3742e592393ee2b822010faf44a67120.bindTooltip(
+                `<div>
+                     Zip 78232: 2 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ed2828eb6b9f17c9d3b2459760079b33 = L.circleMarker(
+                [30.1887877, -97.7303865],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_0fbab8d22215bb72a9de9e4000212801 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b4f8811e682ed6fe32df4567cf0859b4 = $(`<div id="html_b4f8811e682ed6fe32df4567cf0859b4" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 78744</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_0fbab8d22215bb72a9de9e4000212801.setContent(html_b4f8811e682ed6fe32df4567cf0859b4);
+            
+        
+
+        circle_marker_ed2828eb6b9f17c9d3b2459760079b33.bindPopup(popup_0fbab8d22215bb72a9de9e4000212801)
+        ;
+
+        
+    
+    
+            circle_marker_ed2828eb6b9f17c9d3b2459760079b33.bindTooltip(
+                `<div>
+                     Zip 78744: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2e1dfbb90db0399edccb1eac14323bae = L.circleMarker(
+                [31.8903516, -102.3484267],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_fe487d4408ea65aad290c054790c87f3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_14bc77a2768b10e45d9ebe2443443b3f = $(`<div id="html_14bc77a2768b10e45d9ebe2443443b3f" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 79996</b><br>             <b>State: TX</b><br>             Product Count: <b>3</b>             </div>`)[0];
+                popup_fe487d4408ea65aad290c054790c87f3.setContent(html_14bc77a2768b10e45d9ebe2443443b3f);
+            
+        
+
+        circle_marker_2e1dfbb90db0399edccb1eac14323bae.bindPopup(popup_fe487d4408ea65aad290c054790c87f3)
+        ;
+
+        
+    
+    
+            circle_marker_2e1dfbb90db0399edccb1eac14323bae.bindTooltip(
+                `<div>
+                     Zip 79996: 3 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_be65b8cffff6929f8ef046b9c15a0d1b = L.circleMarker(
+                [30.7332025, -99.2192204],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_dbb5e8b1150ef70736c662591f9bb957 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ea16d4a60a2db8a81c48a9a3e69b2037 = $(`<div id="html_ea16d4a60a2db8a81c48a9a3e69b2037" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 76856</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_dbb5e8b1150ef70736c662591f9bb957.setContent(html_ea16d4a60a2db8a81c48a9a3e69b2037);
+            
+        
+
+        circle_marker_be65b8cffff6929f8ef046b9c15a0d1b.bindPopup(popup_dbb5e8b1150ef70736c662591f9bb957)
+        ;
+
+        
+    
+    
+            circle_marker_be65b8cffff6929f8ef046b9c15a0d1b.bindTooltip(
+                `<div>
+                     Zip 76856: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8bda233b53403ac9be8dd21020a13faf = L.circleMarker(
+                [29.8144251, -95.8209311],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_6aa27c12cb970200bfec2ff34e637582);
+        
+    
+        var popup_ac4035d23d077fdfbfd57b95acac7b26 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_129753ae3b9cf0d4e7ef2c20688b7bc3 = $(`<div id="html_129753ae3b9cf0d4e7ef2c20688b7bc3" style="width: 100.0%; height: 100.0%;">             <b>Zip Code: 77493</b><br>             <b>State: TX</b><br>             Product Count: <b>1</b>             </div>`)[0];
+                popup_ac4035d23d077fdfbfd57b95acac7b26.setContent(html_129753ae3b9cf0d4e7ef2c20688b7bc3);
+            
+        
+
+        circle_marker_8bda233b53403ac9be8dd21020a13faf.bindPopup(popup_ac4035d23d077fdfbfd57b95acac7b26)
+        ;
+
+        
+    
+    
+            circle_marker_8bda233b53403ac9be8dd21020a13faf.bindTooltip(
+                `<div>
+                     Zip 77493: 1 products
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
